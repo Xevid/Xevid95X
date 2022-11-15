@@ -634,4 +634,10 @@ F 3 "" H 2700 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 950  2700 950 
+$Sheet
+S 12600 50   17350 10800
+U 6372CB72
+F0 "matrix" 50
+F1 "SwitchMatrix_Design.sch" 50
+$EndSheet
 $EndSCHEMATC
