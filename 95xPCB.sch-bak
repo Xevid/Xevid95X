@@ -39,10 +39,10 @@ F 3 "" H 3450 7200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R?
+L Device:R_Small R6
 U 1 1 6372D196
 P 5200 6000
-F 0 "R?" V 5004 6000 50  0000 C CNN
+F 0 "R6" V 5004 6000 50  0000 C CNN
 F 1 "10k" V 5095 6000 50  0000 C CNN
 F 2 "" H 5200 6000 50  0001 C CNN
 F 3 "~" H 5200 6000 50  0001 C CNN
@@ -65,36 +65,10 @@ Wire Wire Line
 Wire Wire Line
 	5300 6000 5650 6000
 $Comp
-L Device:R_Small R?
-U 1 1 637306A8
-P 2900 4900
-F 0 "R?" V 3096 4900 50  0000 C CNN
-F 1 "22" V 3005 4900 50  0000 C CNN
-F 2 "" H 2900 4900 50  0001 C CNN
-F 3 "~" H 2900 4900 50  0001 C CNN
-	1    2900 4900
-	0    -1   -1   0   
-$EndComp
-$Comp
-L Device:R_Small R?
-U 1 1 63731DFA
-P 2150 5000
-F 0 "R?" V 1954 5000 50  0000 C CNN
-F 1 "22" V 2045 5000 50  0000 C CNN
-F 2 "" H 2150 5000 50  0001 C CNN
-F 3 "~" H 2150 5000 50  0001 C CNN
-	1    2150 5000
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	3300 5000 2250 5000
-Wire Wire Line
-	2050 5000 1850 5000
-$Comp
-L Device:C_Small C?
+L Device:C_Small C7
 U 1 1 63735BAC
 P 2700 5300
-F 0 "C?" H 2792 5346 50  0000 L CNN
+F 0 "C7" H 2792 5346 50  0000 L CNN
 F 1 "1uF" H 2792 5255 50  0000 L CNN
 F 2 "" H 2700 5300 50  0001 C CNN
 F 3 "~" H 2700 5300 50  0001 C CNN
@@ -117,10 +91,10 @@ $EndComp
 Wire Wire Line
 	2700 5400 2700 5650
 $Comp
-L Device:C_Small C?
+L Device:C_Small C4
 U 1 1 63738B04
 P 3050 2750
-F 0 "C?" H 3142 2796 50  0000 L CNN
+F 0 "C4" H 3142 2796 50  0000 L CNN
 F 1 "10uF" H 3142 2705 50  0000 L CNN
 F 2 "" H 3050 2750 50  0001 C CNN
 F 3 "~" H 3050 2750 50  0001 C CNN
@@ -128,10 +102,10 @@ F 3 "~" H 3050 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C3
 U 1 1 6373B1AE
 P 2700 2750
-F 0 "C?" H 2792 2796 50  0000 L CNN
+F 0 "C3" H 2792 2796 50  0000 L CNN
 F 1 "0.1uF" H 2792 2705 50  0000 L CNN
 F 2 "" H 2700 2750 50  0001 C CNN
 F 3 "~" H 2700 2750 50  0001 C CNN
@@ -139,10 +113,10 @@ F 3 "~" H 2700 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C2
 U 1 1 6373BBD8
 P 2300 2750
-F 0 "C?" H 2392 2796 50  0000 L CNN
+F 0 "C2" H 2392 2796 50  0000 L CNN
 F 1 "0.1uF" H 2392 2705 50  0000 L CNN
 F 2 "" H 2300 2750 50  0001 C CNN
 F 3 "~" H 2300 2750 50  0001 C CNN
@@ -150,10 +124,10 @@ F 3 "~" H 2300 2750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C1
 U 1 1 6373C365
 P 1900 2750
-F 0 "C?" H 1992 2796 50  0000 L CNN
+F 0 "C1" H 1992 2796 50  0000 L CNN
 F 1 "0.1uF" H 1992 2705 50  0000 L CNN
 F 2 "" H 1900 2750 50  0001 C CNN
 F 3 "~" H 1900 2750 50  0001 C CNN
@@ -210,13 +184,9 @@ Wire Wire Line
 	2500 2500 2500 2650
 Wire Wire Line
 	3300 4700 2600 4700
-Wire Wire Line
-	3000 4900 3300 4900
-Wire Wire Line
-	1850 4900 2800 4900
-Text GLabel 1850 4900 0    50   Input ~ 0
+Text GLabel 3200 4900 0    50   Input ~ 0
 D+
-Text GLabel 1850 5000 0    50   Input ~ 0
+Text GLabel 3200 5000 0    50   Input ~ 0
 D-
 Connection ~ 3800 7200
 Wire Wire Line
@@ -248,10 +218,10 @@ Connection ~ 7000 2000
 Wire Wire Line
 	7000 1700 7000 2000
 $Comp
-L Device:R_Small R?
+L Device:R_Small R1
 U 1 1 6375C409
 P 7000 1600
-F 0 "R?" H 7059 1646 50  0000 L CNN
+F 0 "R1" H 7059 1646 50  0000 L CNN
 F 1 "10k" H 7059 1555 50  0000 L CNN
 F 2 "" H 7000 1600 50  0001 C CNN
 F 3 "~" H 7000 1600 50  0001 C CNN
@@ -272,10 +242,10 @@ F 3 "" H 6100 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L MCU_Microchip_ATmega:ATmega32U4-AU U?
+L MCU_Microchip_ATmega:ATmega32U4-AU U3
 U 1 1 63717B6E
 P 3900 5400
-F 0 "U?" H 3900 3511 50  0000 C CNN
+F 0 "U3" H 3900 3511 50  0000 C CNN
 F 1 "ATmega32U4-AU" H 3900 3420 50  0000 C CNN
 F 2 "Package_QFP:TQFP-44_10x10mm_P0.8mm" H 3900 5400 50  0001 C CIN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7766-8-bit-AVR-ATmega16U4-32U4_Datasheet.pdf" H 3900 5400 50  0001 C CNN
@@ -287,69 +257,63 @@ RESET
 Text GLabel 7000 2000 2    50   Input ~ 0
 RESET
 $Comp
-L Connector:AVR-ISP-6 J?
+L Connector:AVR-ISP-6 J1
 U 1 1 6375E604
-P 4750 1550
-F 0 "J?" H 4471 1646 50  0000 R CNN
-F 1 "AVR-ISP-6" H 4471 1555 50  0000 R CNN
-F 2 "" V 4500 1600 50  0001 C CNN
-F 3 " ~" H 3475 1000 50  0001 C CNN
-	1    4750 1550
+P 5350 1550
+F 0 "J1" H 5071 1646 50  0000 R CNN
+F 1 "AVR-ISP-6" H 5071 1555 50  0000 R CNN
+F 2 "" V 5100 1600 50  0001 C CNN
+F 3 " ~" H 4075 1000 50  0001 C CNN
+	1    5350 1550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5150 1650 5450 1650
-Text GLabel 5500 1550 2    50   Input ~ 0
+	5750 1650 6050 1650
+Text GLabel 6100 1550 2    50   Input ~ 0
 SCK
 Wire Wire Line
-	5150 1350 5500 1350
+	5750 1350 6100 1350
 Wire Wire Line
-	5150 1450 5500 1450
+	5750 1450 6100 1450
 Wire Wire Line
-	5150 1550 5500 1550
+	5750 1550 6100 1550
 $Comp
 L power:+5V #PWR0111
 U 1 1 637CEEF3
-P 4650 900
-F 0 "#PWR0111" H 4650 750 50  0001 C CNN
-F 1 "+5V" H 4665 1073 50  0000 C CNN
-F 2 "" H 4650 900 50  0001 C CNN
-F 3 "" H 4650 900 50  0001 C CNN
-	1    4650 900 
+P 5250 900
+F 0 "#PWR0111" H 5250 750 50  0001 C CNN
+F 1 "+5V" H 5265 1073 50  0000 C CNN
+F 2 "" H 5250 900 50  0001 C CNN
+F 3 "" H 5250 900 50  0001 C CNN
+	1    5250 900 
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 900  4650 1050
+	5250 900  5250 1050
 $Comp
 L power:GND #PWR0112
 U 1 1 637ECC94
-P 4650 2150
-F 0 "#PWR0112" H 4650 1900 50  0001 C CNN
-F 1 "GND" H 4655 1977 50  0000 C CNN
-F 2 "" H 4650 2150 50  0001 C CNN
-F 3 "" H 4650 2150 50  0001 C CNN
-	1    4650 2150
+P 5250 2150
+F 0 "#PWR0112" H 5250 1900 50  0001 C CNN
+F 1 "GND" H 5255 1977 50  0000 C CNN
+F 2 "" H 5250 2150 50  0001 C CNN
+F 3 "" H 5250 2150 50  0001 C CNN
+	1    5250 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4650 1950 4650 2150
-Text GLabel 4700 4000 2    50   Input ~ 0
+	5250 1950 5250 2150
+Text GLabel 5050 4000 2    50   Input ~ 0
 SCK
-Text GLabel 4700 4100 2    50   Input ~ 0
+Text GLabel 5050 4100 2    50   Input ~ 0
 MOSI
-Text GLabel 4700 4200 2    50   Input ~ 0
+Text GLabel 5050 4200 2    50   Input ~ 0
 MISO
-Wire Wire Line
-	4500 4000 4700 4000
-Wire Wire Line
-	4500 4100 4700 4100
-Wire Wire Line
-	4500 4200 4700 4200
 $Comp
-L random-keyboard-parts:SW_SQKG U?
+L random-keyboard-parts:SW_SQKG U1
 U 1 1 6373FC2E
 P 6500 1850
-F 0 "U?" H 6550 1925 50  0000 C CNN
+F 0 "U1" H 6550 1925 50  0000 C CNN
 F 1 "SW_SQKG" H 6550 1834 50  0000 C CNN
 F 2 "" H 6500 1850 50  0001 C CNN
 F 3 "" H 6500 1850 50  0001 C CNN
@@ -391,10 +355,10 @@ Connection ~ 2750 1450
 Wire Wire Line
 	2750 1950 2750 1450
 $Comp
-L random-keyboard-parts:PRTR5V0U2X U?
+L random-keyboard-parts:PRTR5V0U2X U2
 U 1 1 63743CC9
 P 3050 2000
-F 0 "U?" H 3050 2297 60  0000 C CNN
+F 0 "U2" H 3050 2297 60  0000 C CNN
 F 1 "PRTR5V0U2X" H 3050 2191 60  0000 C CNN
 F 2 "" H 3050 2000 60  0001 C CNN
 F 3 "" H 3050 2000 60  0001 C CNN
@@ -429,10 +393,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 1150 2150 1750
 $Comp
-L Device:R_Small R?
+L Device:R_Small R2
 U 1 1 6389C842
 P 1900 1850
-F 0 "R?" H 1959 1896 50  0000 L CNN
+F 0 "R2" H 1959 1896 50  0000 L CNN
 F 1 "5.1k" H 1959 1805 50  0000 L CNN
 F 2 "" H 1900 1850 50  0001 C CNN
 F 3 "~" H 1900 1850 50  0001 C CNN
@@ -446,10 +410,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 1150 1450 1150
 $Comp
-L Device:R_Small R?
+L Device:R_Small R3
 U 1 1 6387F88A
 P 2150 1850
-F 0 "R?" H 2209 1896 50  0000 L CNN
+F 0 "R3" H 2209 1896 50  0000 L CNN
 F 1 "5.1k" H 2209 1805 50  0000 L CNN
 F 2 "" H 2150 1850 50  0001 C CNN
 F 3 "~" H 2150 1850 50  0001 C CNN
@@ -477,15 +441,15 @@ Wire Wire Line
 	1650 1350 1650 1550
 Wire Wire Line
 	1450 1350 1650 1350
-Text GLabel 3550 1550 2    50   Input ~ 0
+Text GLabel 3800 1550 2    50   Input ~ 0
 D+
-Text GLabel 3550 1450 2    50   Input ~ 0
+Text GLabel 3800 1450 2    50   Input ~ 0
 D-
-Text GLabel 5500 1450 2    50   Input ~ 0
+Text GLabel 6100 1450 2    50   Input ~ 0
 MOSI
-Text GLabel 5500 1350 2    50   Input ~ 0
+Text GLabel 6100 1350 2    50   Input ~ 0
 MISO
-Text GLabel 5450 1650 2    50   Input ~ 0
+Text GLabel 6050 1650 2    50   Input ~ 0
 RESET
 Connection ~ 2300 4450
 $Comp
@@ -526,10 +490,10 @@ Wire Wire Line
 Wire Wire Line
 	2500 4350 2500 4300
 $Comp
-L Device:C_Small C?
+L Device:C_Small C6
 U 1 1 6374B7BA
 P 2400 4350
-F 0 "C?" V 2171 4350 50  0000 C CNN
+F 0 "C6" V 2171 4350 50  0000 C CNN
 F 1 "22pF" V 2262 4350 50  0000 C CNN
 F 2 "" H 2400 4350 50  0001 C CNN
 F 3 "~" H 2400 4350 50  0001 C CNN
@@ -537,10 +501,10 @@ F 3 "~" H 2400 4350 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C5
 U 1 1 6374A72B
 P 2400 4050
-F 0 "C?" V 2171 4050 50  0000 C CNN
+F 0 "C5" V 2171 4050 50  0000 C CNN
 F 1 "22pF" V 2262 4050 50  0000 C CNN
 F 2 "" H 2400 4050 50  0001 C CNN
 F 3 "~" H 2400 4050 50  0001 C CNN
@@ -552,10 +516,10 @@ Wire Wire Line
 Wire Wire Line
 	3300 4100 2750 4100
 $Comp
-L Device:Crystal_GND24_Small Y?
+L Device:Crystal_GND24_Small Y1
 U 1 1 63747883
 P 2750 4200
-F 0 "Y?" V 2704 4344 50  0000 L CNN
+F 0 "Y1" V 2704 4344 50  0000 L CNN
 F 1 "16MHz" V 2795 4344 50  0000 L CNN
 F 2 "" H 2750 4200 50  0001 C CNN
 F 3 "~" H 2750 4200 50  0001 C CNN
@@ -573,12 +537,11 @@ F 3 "" H 2600 4700 50  0001 C CNN
 	1    2600 4700
 	1    0    0    -1  
 $EndComp
-NoConn ~ 4500 6100
 $Comp
-L Type-C:HRO-TYPE-C-31-M-12 USB?
+L Type-C:HRO-TYPE-C-31-M-12 USB1
 U 1 1 63863458
 P 1350 1400
-F 0 "USB?" H 1183 2197 60  0000 C CNN
+F 0 "USB1" H 1183 2197 60  0000 C CNN
 F 1 "HRO-TYPE-C-31-M-12" H 1183 2091 60  0000 C CNN
 F 2 "" H 1350 1400 60  0001 C CNN
 F 3 "" H 1350 1400 60  0001 C CNN
@@ -608,10 +571,10 @@ Wire Wire Line
 	1750 950  2050 950 
 Connection ~ 1750 950 
 $Comp
-L Device:Polyfuse_Small F?
+L Device:Polyfuse_Small F1
 U 1 1 63870A1C
 P 2350 950
-F 0 "F?" V 2145 950 50  0000 C CNN
+F 0 "F1" V 2145 950 50  0000 C CNN
 F 1 "500m" V 2236 950 50  0000 C CNN
 F 2 "" H 2400 750 50  0001 L CNN
 F 3 "~" H 2350 950 50  0001 C CNN
@@ -634,10 +597,92 @@ F 3 "" H 2700 950 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2450 950  2700 950 
-$Sheet
-S 12600 50   17350 10800
-U 6372CB72
-F0 "matrix" 50
-F1 "SwitchMatrix_Design.sch" 50
-$EndSheet
+Wire Wire Line
+	3200 4900 3300 4900
+Wire Wire Line
+	3200 5000 3300 5000
+$Comp
+L Device:R_Small R?
+U 1 1 63763204
+P 3650 1450
+F 0 "R?" V 3454 1450 50  0000 C CNN
+F 1 "R_Small" V 3545 1450 50  0000 C CNN
+F 2 "" H 3650 1450 50  0001 C CNN
+F 3 "~" H 3650 1450 50  0001 C CNN
+	1    3650 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6376B60F
+P 3650 1550
+F 0 "R?" V 3454 1550 50  0000 C CNN
+F 1 "R_Small" V 3545 1550 50  0000 C CNN
+F 2 "" H 3650 1550 50  0001 C CNN
+F 3 "~" H 3650 1550 50  0001 C CNN
+	1    3650 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3750 1550 3800 1550
+Wire Wire Line
+	3750 1450 3800 1450
+NoConn ~ 3300 4500
+Text GLabel 4500 3900 2    50   Input ~ 0
+col7
+Text GLabel 4500 4300 2    50   Input ~ 0
+col0
+Text GLabel 4500 4400 2    50   Input ~ 0
+col1
+Text GLabel 4500 4500 2    50   Input ~ 0
+col2
+Text GLabel 4500 4800 2    50   Input ~ 0
+col3
+Text GLabel 4500 4900 2    50   Input ~ 0
+col4
+Text GLabel 4500 5200 2    50   Input ~ 0
+col8
+Text GLabel 4500 5300 2    50   Input ~ 0
+col9
+Text GLabel 4500 5400 2    50   Input ~ 0
+col10
+Text GLabel 4500 5500 2    50   Input ~ 0
+col11
+Text GLabel 4500 5600 2    50   Input ~ 0
+col12
+Text GLabel 4500 5700 2    50   Input ~ 0
+col13
+Text GLabel 4500 5800 2    50   Input ~ 0
+col14
+Wire Wire Line
+	4500 4000 4850 4000
+Wire Wire Line
+	4500 4100 4950 4100
+Wire Wire Line
+	4500 4200 4850 4200
+Wire Wire Line
+	4950 4100 4950 3900
+Wire Wire Line
+	4950 3900 5500 3900
+Wire Wire Line
+	5500 3900 5500 4100
+Connection ~ 4950 4100
+Wire Wire Line
+	4950 4100 5050 4100
+Wire Wire Line
+	4850 4000 4850 3850
+Wire Wire Line
+	4850 3850 5350 3850
+Wire Wire Line
+	5350 3850 5350 4000
+Connection ~ 4850 4000
+Wire Wire Line
+	4850 4000 5050 4000
+Wire Wire Line
+	4850 4200 4850 4300
+Wire Wire Line
+	4850 4300 5350 4300
+Connection ~ 4850 4200
+Wire Wire Line
+	4850 4200 5050 4200
 $EndSCHEMATC

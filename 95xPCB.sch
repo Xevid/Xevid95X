@@ -655,29 +655,7 @@ col13
 Text GLabel 4500 5800 2    50   Input ~ 0
 col14
 Wire Wire Line
-	4500 4000 4850 4000
-Wire Wire Line
-	4500 4100 4950 4100
-Wire Wire Line
 	4500 4200 4850 4200
-Wire Wire Line
-	4950 4100 4950 3900
-Wire Wire Line
-	4950 3900 5500 3900
-Wire Wire Line
-	5500 3900 5500 4100
-Connection ~ 4950 4100
-Wire Wire Line
-	4950 4100 5050 4100
-Wire Wire Line
-	4850 4000 4850 3850
-Wire Wire Line
-	4850 3850 5350 3850
-Wire Wire Line
-	5350 3850 5350 4000
-Connection ~ 4850 4000
-Wire Wire Line
-	4850 4000 5050 4000
 Wire Wire Line
 	4850 4200 4850 4300
 Wire Wire Line
@@ -685,4 +663,15 @@ Wire Wire Line
 Connection ~ 4850 4200
 Wire Wire Line
 	4850 4200 5050 4200
+Wire Wire Line
+	4500 4100 5050 4100
+Wire Wire Line
+	4500 4000 4850 4000
+Wire Wire Line
+	4850 4000 4850 3900
+Wire Wire Line
+	4850 3900 5350 3900
+Connection ~ 4850 4000
+Wire Wire Line
+	4850 4000 5050 4000
 $EndSCHEMATC
