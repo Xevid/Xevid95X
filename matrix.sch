@@ -36,8 +36,6 @@ F 3 "~" V 1750 2050 50  0001 C CNN
 	1    1750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2150 1950 2150 1650
 Connection ~ 2150 1950
 Wire Wire Line
 	1750 2150 2250 2150
@@ -63,8 +61,6 @@ F 3 "~" V 2250 2050 50  0001 C CNN
 	1    2250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	2650 1950 2650 1650
 Connection ~ 2650 1950
 Wire Wire Line
 	2250 2150 2750 2150
@@ -91,8 +87,6 @@ F 3 "~" V 2750 2050 50  0001 C CNN
 	1    2750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3150 1950 3150 1650
 Connection ~ 3150 1950
 Wire Wire Line
 	2750 2150 3250 2150
@@ -118,8 +112,6 @@ F 3 "~" V 3250 2050 50  0001 C CNN
 	1    3250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	3650 1950 3650 1650
 Connection ~ 3650 1950
 Wire Wire Line
 	3250 2150 3750 2150
@@ -147,8 +139,6 @@ F 3 "~" V 3750 2050 50  0001 C CNN
 	1    3750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4150 1950 4150 1650
 Connection ~ 4150 1950
 Wire Wire Line
 	3750 2150 4250 2150
@@ -174,8 +164,6 @@ F 3 "~" V 4250 2050 50  0001 C CNN
 	1    4250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4650 1950 4650 1650
 Connection ~ 4650 1950
 Wire Wire Line
 	4250 2150 4750 2150
@@ -202,8 +190,6 @@ F 3 "~" V 4750 2050 50  0001 C CNN
 	1    4750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5150 1950 5150 1650
 Connection ~ 5150 1950
 Wire Wire Line
 	4750 2150 5250 2150
@@ -229,8 +215,6 @@ F 3 "~" V 5250 2050 50  0001 C CNN
 	1    5250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	5650 1950 5650 1650
 Connection ~ 5650 1950
 Wire Wire Line
 	5250 2150 5750 2150
@@ -259,8 +243,6 @@ F 3 "~" V 5750 2050 50  0001 C CNN
 	1    5750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6150 1950 6150 1650
 Connection ~ 6150 1950
 Wire Wire Line
 	5750 2150 6250 2150
@@ -286,8 +268,6 @@ F 3 "~" V 6250 2050 50  0001 C CNN
 	1    6250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	6650 1950 6650 1650
 Connection ~ 6650 1950
 Wire Wire Line
 	6250 2150 6750 2150
@@ -314,8 +294,6 @@ F 3 "~" V 6750 2050 50  0001 C CNN
 	1    6750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7150 1950 7150 1650
 Connection ~ 7150 1950
 Wire Wire Line
 	6750 2150 7250 2150
@@ -341,8 +319,6 @@ F 3 "~" V 7250 2050 50  0001 C CNN
 	1    7250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	7650 1950 7650 1650
 Connection ~ 7650 1950
 Wire Wire Line
 	7250 2150 7750 2150
@@ -370,8 +346,6 @@ F 3 "~" V 7750 2050 50  0001 C CNN
 	1    7750 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8150 1950 8150 1650
 Connection ~ 8150 1950
 Wire Wire Line
 	7750 2150 8250 2150
@@ -397,8 +371,6 @@ F 3 "~" V 8250 2050 50  0001 C CNN
 	1    8250 2050
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	8650 1950 8650 1650
 Connection ~ 8250 2150
 $Comp
 L Device:D_Small D15
@@ -420,8 +392,6 @@ Wire Wire Line
 	9250 2150 9750 2150
 Connection ~ 9250 2150
 Connection ~ 9650 1950
-Wire Wire Line
-	9650 1950 9650 1650
 $Comp
 L Device:D_Small D16
 U 1 1 6376EF89
@@ -447,8 +417,6 @@ $EndComp
 Wire Wire Line
 	8750 2150 9250 2150
 Connection ~ 9150 1950
-Wire Wire Line
-	9150 1950 9150 1650
 $Comp
 L Switch:SW_Push SW15
 U 1 1 6376EF67
@@ -464,8 +432,6 @@ Wire Wire Line
 	9750 2150 10250 2150
 Connection ~ 9750 2150
 Connection ~ 10150 1950
-Wire Wire Line
-	10150 1950 10150 1650
 $Comp
 L Device:D_Small D17
 U 1 1 639209D8
@@ -2587,4 +2553,60 @@ Text GLabel 9650 1350 1    50   Input ~ 0
 col15
 Text GLabel 10150 1350 1    50   Input ~ 0
 col16
+Wire Wire Line
+	1550 2150 1750 2150
+Connection ~ 1750 2150
+Wire Wire Line
+	2150 1350 2150 1950
+Wire Wire Line
+	2650 1350 2650 1950
+Wire Wire Line
+	3150 1350 3150 1950
+Wire Wire Line
+	3650 1350 3650 1950
+Wire Wire Line
+	4150 1350 4150 1950
+Wire Wire Line
+	4650 1350 4650 1950
+Wire Wire Line
+	5150 1350 5150 1950
+Wire Wire Line
+	1550 2750 1750 2750
+Connection ~ 1750 2750
+Wire Wire Line
+	1550 3350 1750 3350
+Connection ~ 1750 3350
+Wire Wire Line
+	1550 3950 1750 3950
+Connection ~ 1750 3950
+Wire Wire Line
+	1550 4500 1650 4500
+Wire Wire Line
+	1650 4500 1650 4550
+Wire Wire Line
+	1650 4550 1750 4550
+Connection ~ 1750 4550
+Wire Wire Line
+	1550 5150 1750 5150
+Connection ~ 1750 5150
+Wire Wire Line
+	5650 1350 5650 1950
+Wire Wire Line
+	6150 1350 6150 1950
+Wire Wire Line
+	6650 1350 6650 1950
+Wire Wire Line
+	7150 1350 7150 1950
+Wire Wire Line
+	7650 1350 7650 1950
+Wire Wire Line
+	8150 1350 8150 1950
+Wire Wire Line
+	8650 1350 8650 1950
+Wire Wire Line
+	9150 1350 9150 1950
+Wire Wire Line
+	9650 1350 9650 1950
+Wire Wire Line
+	10150 1350 10150 1950
 $EndSCHEMATC
